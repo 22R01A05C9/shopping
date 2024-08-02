@@ -39,6 +39,7 @@ function Mainbody(props) {
             });
         }
     }
+
     return (
         <div className={styles.mainbody}>
             <Optionpanel className={styles.option} color={color} setcolor={setcolor} price={price} setprice={setprice} />

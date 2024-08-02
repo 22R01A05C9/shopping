@@ -52,6 +52,11 @@
     cursor: pointer;
 }
 
+.maxheader nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 .maxheader nav ul li:hover {
     border-bottom: 2px solid black;
 }

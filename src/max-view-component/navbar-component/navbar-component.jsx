@@ -5,13 +5,13 @@ function Navbar() {
         <header className={styles.maxheader}>
             <div className={styles.subpart}>
                 <div className={styles.head}>
-                    <a href="#"><img className={styles.brandlogo} src="images/brandlogo.png" alt="Website Logo"></img></a>
+                    <a href="/"><img className={styles.brandlogo} src="/images/brandlogo.png" alt="Website Logo"></img></a>
                     <i className="fa-solid fa-bars"></i>
                     <i className="fa-sharp fa-solid fa-xmark-large dis-none"></i>
                 </div>
                 <nav>
                     <ul>
-                        <li>Home</li>
+                        <li><a href="/">Home</a></li>
                         <li>About Us</li>
                         <li>Contact Us</li>
                         <li>Track Order</li>

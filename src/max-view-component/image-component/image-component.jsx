@@ -1,14 +1,14 @@
 import styles from "./image-component.module.css";
 
-function Image({ image, name, price, color }) {
+function Image({ image, name, price, color, index, redir }) {
     return (
-        <div className={styles.item}>
+        <div className={styles.item} onClick={redir}>
             <img src={image} alt="Product image"></img>
             <hr></hr>
             <p className={styles.title}>{name}</p>
             <p className={styles.price}> &#x20B9;{price}</p>
             <p className={styles.color}>{color} Color</p>
-            <button className={styles.buy} type="button">Buy Now</button>
+            <a className={styles.buy} href={'/product/' + index}>Buy Now</a>
         </div>
 
     )
