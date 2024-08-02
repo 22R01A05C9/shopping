@@ -77,6 +77,8 @@
 
 .active {
     border: 1px solid black !important;
+    color: white !important;
+    background-color: black !important;
 }
 
 .buttons {
