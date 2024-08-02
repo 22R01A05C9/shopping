@@ -6,7 +6,7 @@ function Images({ data }) {
             {
                 data.map((item) => {
                     return (
-                        <Image key={item.name} image={item.image} name={item.name} price={item.price.substring(1,)} color={item.color}></Image>)
+                        <Image key={item.index} index={item.index} image={item.image} name={item.name} price={item.price.substring(1,)} color={item.color}></Image>)
                 })
             }
         </div>

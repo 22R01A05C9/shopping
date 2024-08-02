@@ -29,13 +29,13 @@ function Header() {
         <header className={styles.minheader}>
             <div className={styles.subpart}>
                 <div className={styles.head}>
-                    <a href="#"><img className={styles.brandlogo} src="images/brandlogo.png" alt="Website Logo" /></a>
+                    <a href="/"><img className={styles.brandlogo} src="/images/brandlogo.png" alt="Website Logo" /></a>
                     <i className="fa-solid fa-bars"></i>
                     <i className={"fa-sharp fa-solid fa-xmark-large " + styles.disnone}></i>
                 </div>
                 <nav className={styles.minnav} >
                     <ul>
-                        <li className={styles.hoveractive}>Home</li>
+                        <li className={styles.hoveractive}><a href="/">Home</a></li>
                         <li>About Us</li>
                         <li>Contact Us</li>
                         <li>Track Order</li>

@@ -93,7 +93,7 @@ function App() {
 		},
 		{
 			name: "Jordan Stay Loyal 3",
-			price: "₹1,00,000",
+			price: "₹ 1, 00, 000",
 			image: "/images/12.jpeg",
 			color: "Black",
 			index: "12",

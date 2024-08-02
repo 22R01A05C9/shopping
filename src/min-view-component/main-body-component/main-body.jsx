@@ -9,11 +9,11 @@ function Main(props) {
     let newdata = []
     let newprice = price;
     switch (newprice) {
-        case "Low": newprice = "10,000";
+        case "Low": newprice = " 10, 000";
             break;
-        case "Medium": newprice = "50,000";
+        case "Medium": newprice = " 50, 000";
             break;
-        case "High": newprice = "1,00,000";
+        case "High": newprice = " 1, 00, 000";
             break;
     }
     if (color === "All" && price == "All") {
