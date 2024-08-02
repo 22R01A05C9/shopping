@@ -86,7 +86,7 @@ function Product({ data }) {
                     <div className={styles.spe}>
                         <p><strong>Colour Shown:</strong>  {newdata.color}</p>
                         <p><strong>Style: </strong>FQ7720-002</p>
-                        <p><strong>Country / Region of Origin:</strong> Vietnam</p>
+                        <p><strong>Country of Origin:</strong> Vietnam</p>
                     </div>
 
                 </div>

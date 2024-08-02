@@ -1,5 +1,5 @@
 .popup {
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -16,9 +16,9 @@
     background-color: white;
     padding: 10px;
     position: fixed;
-    top: 50%x;
-    width: 20%;
-    height: 12%;
+    top: 50%;
+    width: 300px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 0 0 5px 5px #ffffff54;
 }
